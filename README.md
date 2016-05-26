@@ -1,4 +1,5 @@
 # Behavior Tree
+```txt
 纯lua实现的一个简单的行为树
 编写AI形式如下,可用思维导图制作后写个脚本导出
 SEL:AI
@@ -27,6 +28,6 @@ SEL:AI
 使用方式如下,其中entity为人物model对象,上面定义的方法实现在model中
 local tree = BehaviorTree.new(ai_string)
 tree:behave(entity)
-
+```
 
 
