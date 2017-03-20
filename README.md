@@ -28,6 +28,7 @@ SEL:AI
 使用方式如下,其中entity为人物model对象,上面定义的方法实现在model中
 local tree = BehaviorTree.new(ai_string)
 tree:behave(entity)
+忘了说了,这是要每帧调用的
 ```
 
 
